@@ -34,12 +34,13 @@ npx shadcn@latest add https://shadcn-ui-sidebar.salimi.my/registry/shadcn-sideba
 ```
 
 ### Usage example for Nextjs
+
 ```tsx
 //layout.tsx
 import AdminPanelLayout from "@/components/admin-panel/admin-panel-layout";
 
 export default async function Layout({
-  children,
+  children
 }: Readonly<{
   children: React.ReactNode;
 }>) {
@@ -78,6 +79,12 @@ export default function Page() {
    ```bash
    npm run dev
    ```
+
+## Localhost
+
+```bash
+http://localhost:3000/
+```
 
 ## Demo
 
